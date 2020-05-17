@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iCJOP/GVGDyDNi3DCAjWy8sbMad9eF0t1Ct2JDffQpExlE43wRAk1mMhFdJW0J5/zLb499kyhI9zxQBxbEvbSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\peter\\source\\repos\\voyagerExercise\\voyagerExercise\\voyagerExercise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.4\\microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.4\\microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}

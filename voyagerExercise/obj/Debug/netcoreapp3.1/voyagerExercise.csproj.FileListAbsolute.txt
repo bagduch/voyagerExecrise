@@ -1,0 +1,16 @@
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\voyagerExercise.exe
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\voyagerExercise.deps.json
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\voyagerExercise.runtimeconfig.json
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\voyagerExercise.runtimeconfig.dev.json
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\voyagerExercise.dll
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\voyagerExercise.pdb
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.AssemblyInfoInputs.cache
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.AssemblyInfo.cs
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.dll
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.pdb
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.genruntimeconfig.cache
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\peter\source\repos\voyagerExercise\voyagerExercise\obj\Debug\netcoreapp3.1\voyagerExercise.csproj.CopyComplete
