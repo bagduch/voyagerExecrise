@@ -1,0 +1,28 @@
+[
+  {
+    "code": "A",
+    "unitPrice": 1.25,
+    "bulkPrice": {
+      "qty": 3,
+      "price": 3
+    }
+  },
+  {
+    "code": "B",
+    "unitPrice": 4.25,
+    "bulkPrice": null
+  },
+  {
+    "code": "C",
+    "unitPrice": 1,
+    "bulkPrice": {
+      "qty": 6,
+      "price": 5
+    }
+  },
+  {
+    "code": "D",
+    "unitPrice": 0.75,
+    "bulkPrice": null
+  }
+]

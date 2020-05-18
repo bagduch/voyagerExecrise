@@ -46,11 +46,11 @@ namespace voyagerExercise.Services
                 {
                     int bulkTimes = c.qty / buiklist[index].qty;
                     int itemLeftAfterBulk = c.qty % buiklist[index].qty;
-                    currentTotal += bulkTimes * buiklist[index].price + itemLeftAfterBulk * c.Pricing;
+                    currentTotal += bulkTimes * buiklist[index].price + itemLeftAfterBulk * c.unitPrice;
                 }
                 else
                 {
-                    currentTotal += c.qty * c.Pricing;
+                    currentTotal += c.qty * c.unitPrice;
                 }
             }
             return currentTotal;
@@ -58,11 +58,11 @@ namespace voyagerExercise.Services
         public void addToCart(Product product)
         {
             var item = new Cart();
-            item.code = product.Code;
-            item.Pricing = product.unitPrice;
+            item.code = product.code;
+            item.unitPrice = product.unitPrice;
             item.qty = 1;
 
-            int index = this.cart.FindIndex(item => item.code == product.Code);
+            int index = this.cart.FindIndex(item => item.code == product.code);
             if (index >= 0)
             {
                 this.cart[index].qty++;

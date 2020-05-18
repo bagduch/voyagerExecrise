@@ -16,11 +16,13 @@ namespace voyagerExercise.Services
         {
             _seed = new ProductsSeeds();
         }
-
+        /**
+        * get product by code, this should be extend 
+        */
         public Product GetProductByCode(char code)
         {
             var products = _seed.products.ToImmutableList();
-            var index = products.FindIndex(product => product.Code == code.ToString());
+            var index = products.FindIndex(product => product.code == code.ToString());
             if (index >= 0)
             {
                 return products[index];
@@ -28,6 +30,9 @@ namespace voyagerExercise.Services
             return null;
         }
 
+        /*
+        / find product that have Bulk Price Options 
+        */
         public List<BulkPrice> getAllBuikList()
         {
             List<BulkPrice> buikList = new List<BulkPrice>();
@@ -36,6 +41,10 @@ namespace voyagerExercise.Services
             {
                 if (p.bulkPrice != null)
                 {
+                    if (p.bulkPrice.code == null)
+                    {
+                        p.bulkPrice.code = p.code;
+                    }
                     buikList.Add(p.bulkPrice);
                 }
             }

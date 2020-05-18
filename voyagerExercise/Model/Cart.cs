@@ -6,10 +6,13 @@ namespace voyagerExercise.Model
 {
     class Cart
     {
-
+        //product code that pass from product.
         public string code { set; get; }
-        public double Pricing { set; get; }
 
+        //product code that pass from Price.
+        public double unitPrice { set; get; }
+
+        // qty
         public int qty { set; get; }
 
 

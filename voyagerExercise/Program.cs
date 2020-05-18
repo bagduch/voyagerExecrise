@@ -8,11 +8,18 @@ namespace voyagerExercise
     {
         static void Main(string[] args)
         {
+
+            //init Terminal 
             var terminal = new PointOfSaleTerminal();
-            terminal.ScanProduct("CCCCCCCC");
+
+            //add product code if Code not exit will print product not found, accept string or char
+            terminal.ScanProduct("CCCCCCC");
+
+            //cacualte the result
             decimal result = (decimal)terminal.CaculateTotal();
 
-            Console.Write(result);
+            //write result to console
+            Console.Write("${0:N2}", result);
 
         }
     }
