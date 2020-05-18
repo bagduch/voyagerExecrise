@@ -8,6 +8,7 @@ namespace voyagerExercise.Model
     {
         public string code { set; get; }
 
+
         public double unitPrice { set; get; }
 
         public BulkPrice bulkPrice { set; get; }

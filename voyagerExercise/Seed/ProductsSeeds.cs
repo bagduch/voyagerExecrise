@@ -27,7 +27,7 @@ namespace voyagerExercise.Seed
 
             // //create bulk price
             // var bulkpriceA = new BulkPrice();
-            // bulkpriceA.code = productA.code;
+            // bulkpriceA.code = productA.code;f
             // bulkpriceA.qty = 3;
             // bulkpriceA.price = 3;
             // productA.bulkPrice = bulkpriceA;

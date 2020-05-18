@@ -11,12 +11,28 @@ namespace voyagerExercise.Services
 
         protected List<Cart> cart;
         private ProductServices _productServices;
+
+        private static PointOfSaleTerminal _instance;
+
         public PointOfSaleTerminal()
         {
             cart = new List<Cart>();
             _productServices = new ProductServices();
         }
 
+        public static PointOfSaleTerminal Instance()
+        {
+            // Uses lazy initialization.
+
+            // Note: this is not thread safe.
+
+            if (_instance == null)
+            {
+                _instance = new PointOfSaleTerminal();
+            }
+
+            return _instance;
+        }
         public void ScanProduct(string code)
         {
             char[] charArr = code.ToCharArray();

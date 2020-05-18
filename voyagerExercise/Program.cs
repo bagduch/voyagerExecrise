@@ -9,11 +9,14 @@ namespace voyagerExercise
         static void Main(string[] args)
         {
 
-            //init Terminal 
+            //init  singleton
             var terminal = new PointOfSaleTerminal();
 
+            //singleton cart
+            //var terminal = PointOfSaleTerminal.Instance();
+
             //add product code if Code not exit will print product not found, accept string or char
-            terminal.ScanProduct("CCCCCCC");
+            terminal.ScanProduct("CCCCCCCCCCCC");
 
             //cacualte the result
             decimal result = (decimal)terminal.CaculateTotal();
